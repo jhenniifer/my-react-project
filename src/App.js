@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import './App.css'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import Whatisgpt from './components/Whatisgpt'
+import FeatureOne from './components/FeatureOne'
+import FeatureTwo from './components/FeatureTwo'
+import Register from './components/Register'
+import Blogging from './components/Blogging'
+import Footer from './components/Footer'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='box text-white mt-2 mt-lg-5' >
+      <Nav/>
+      <Hero/>
+      <Whatisgpt/>
+      <FeatureOne/>
+      <FeatureTwo />
+      <Register/>
+      <Blogging/>
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

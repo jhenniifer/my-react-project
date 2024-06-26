@@ -1,38 +1,291 @@
-.App {
-  text-align: center;
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+ 
+ *{
+  font-family: "Manrope", sans-serif;
+ }
+nav{
+  margin: 0 7%;
+}
+.hero{
+  margin: 0 0 0 6% ;
+}
+.btn{
+  background-color: #FF4820;
+}
+.ai-image{
+  max-width: 650px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-heading{
+  font-size: 55px;
+  font-weight: 800; 
+  line-height: 64px;
+  background: linear-gradient(to right,#AE67FA , #F49867 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 20%;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #81AFDD; 
+  margin-top: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+  padding: 10px 170px 10px 20px;
+  background-color: #052D56;
+  color: #3D6184;
+ border: none;
+}
+.hero button{
+  padding: 12.5px 15px;
+}
+.d-flex > p{
+  font-size: 12px;
+  font-weight: 500;
+}
+.hero-icons > img{
+width: 60px;
+}
+.rectangle{
+ 
+  width: 38px;
+  height: 3px;
+  background-image: linear-gradient(to right, #AE67FA, #F49867);
+}
+#what-is-gpt{
+  margin: 100px 6%;
+  border: 1px solid none;
+  background-color: #042C54;
+  
+}
+#what-is-gpt p:nth-child(2){
+  color: #81AFDD;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+}
+.middle > .col-xl-6, .featured-title,.featured-two > div:nth-child(2) h3 {
+  background: linear-gradient(to right,#AE67FA , #F49867 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 45px;
+}
+.middle > .col-xl-2{
+  color: #FF8A71 !important;
+  margin-left: 30%;
+}
+.featured-one, .blogging{
+  margin: 0 6%;
+}
+.featured-title ~ p, .featured-two > div:nth-child(2) > p:last-child{
+  color: #FF8A71;
+  font-weight: 500;
+}
+.featured-two{
+  margin: 0 8%;
+}
+.featured-two > div:nth-child(2){
+  margin-top: 24%;
+  width: 41%;
+}
+.featured-two > div:nth-child(2)> p:first-child{
+  color: #71E5FF;
+  font-size: 16;
+  font-weight: 500;
+  line-height: 30px;
+}
+.featured-two > div:nth-child(2) > p:nth-of-type(2){
+  color: #81AFDD;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.register{
+  margin: 100px 6% ;
+  background: linear-gradient(to right,#AE67FA , #F49867 ) ;
+  border-radius: 10px;
+}
+.blogging > div{
+margin-bottom: 70px; 
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+text-align: left;
+background: linear-gradient(to right,#AE67FA , #F49867 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text
+}
+.footer{
+  background-color: #031B34;
+  padding: 0 9%;
+}
+.footer > p:first-child{
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+margin: auto;
+text-align: center;
+width: 75%;
+padding-top: 10%;
+background: linear-gradient(to right,#AE67FA , #F49867 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text
+  
+}
+.footer > button{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+@media (max-width: 1100px) {
+  .hero-heading{
+    font-size: 35px;
+    font-weight: 800; 
+    line-height: 45px; 
+  }
+  .hero-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #81AFDD; 
+    margin-top: 35px;
+  }
+  .ai-image{
+      max-width: 550px;
+    }
+  #what-is-gpt p:nth-child(2){  
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+   
+    }
+  .middle > .col-xl-6, .featured-two > div:nth-child(2) h3 {
+      font-size: 25px;
+      font-weight: 800;
+      line-height: 32px;
+    }
+  .featured-title{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    text-align: center;
+  }
+  .featured-title ~ p{
+    text-align: center;
+  }
+  .featured-two > div:nth-child(2) > p:nth-of-type(2){
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  .blogging > div{
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 65px;
+   }
+   .footer > p:first-child{
+    font-size: 55px;
+    }
+  
+}
+@media (max-width: 992px){
+  .hero{
+    margin: 0 5% 0 5% ;
+  }
+  .hero-heading{
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 5%;
+   
+  }
+  .hero-p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .ai-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-icons > img{
+    width: 50px;
+    }
+    .featured-two > div:nth-child(2){
+      margin-top: 60px;
+      width: 100%;
+    }
+    .featured-two > div:nth-child(2)> p:first-child{
+      font-size: 16;
+      font-weight: 500;
+      line-height: 30px;
+    }
+    .featured-two > div:nth-child(2) > p:nth-of-type(2){
+      
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+    
+    }
+    .blogging > div{
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 55px;
+     }
+    
+     .footer > p:first-child{
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 38px;
+      width: 85%;
+      padding-top: 10%;
+    
+      }
+
+      .footer{
+        padding: 0 4%;
+      }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+@media (max-width: 768px) {
+  input{
+    padding: 10px 30px 10px 20px;
+   
+}
+.hero button{
+  font-size: 12px;
+  padding: 12.5px 15px;
+}
+.hero-icons > img{
+  width: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .middle > .col-xl-6{
+    font-size: 20px;
+    font-weight: 800;
   }
+  .middle > .col-xl-2{
+    font-size:16px ;
+    margin-left: 0;
+  }
+  .featured-two img{
+    width: 100%;
+  }
+  
 }
