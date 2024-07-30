@@ -122,6 +122,9 @@ background: linear-gradient(to right,#AE67FA , #F49867 );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text
 }
+.article{
+  background-color: #042C54;
+}
 .footer{
   background-color: #031B34;
   padding: 0 9%;
