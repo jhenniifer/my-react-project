@@ -170,7 +170,7 @@ background: linear-gradient(to right,#AE67FA , #F49867 );
    
     }
   .middle > .col-xl-6, .featured-two > div:nth-child(2) h3 {
-      font-size: 25px;
+      font-size: 22px;
       font-weight: 800;
       line-height: 32px;
     }
@@ -204,7 +204,8 @@ background: linear-gradient(to right,#AE67FA , #F49867 );
     margin: 0 5% 0 5% ;
   }
   .hero-heading{
-    font-size: 28px;
+    font-size: 24px;
+    text-align: center;
     line-height: 35px;
     margin-top: 5%;
    
@@ -230,25 +231,24 @@ background: linear-gradient(to right,#AE67FA , #F49867 );
       width: 100%;
     }
     .featured-two > div:nth-child(2)> p:first-child{
-      font-size: 16;
+      font-size: 14px;
       font-weight: 500;
       line-height: 30px;
     }
     .featured-two > div:nth-child(2) > p:nth-of-type(2){
-      
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 30px;
     
     }
     .blogging > div{
-      font-size: 40px;
+      font-size: 30px;
       font-weight: 800;
-      line-height: 55px;
+      line-height: 40px;
      }
     
      .footer > p:first-child{
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 800;
       line-height: 38px;
       width: 85%;
@@ -284,8 +284,16 @@ background: linear-gradient(to right,#AE67FA , #F49867 );
     font-size:16px ;
     margin-left: 0;
   }
+  .featured-title{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: center;
+  }
   .featured-two img{
     width: 100%;
   }
-  
+  .featured-two > div:nth-child(2) h3 {
+    font-size: 14px;
+  }
 }

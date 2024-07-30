@@ -11,7 +11,7 @@ const Nav = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5 gap-4">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-5 gap-4">
         <li class="nav-item">
           <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
         </li>
@@ -28,13 +28,13 @@ const Nav = () => {
           <a class="nav-link text-white">Library</a>
         </li>
       </ul>
-      <div class="d-lg-flex ms-5 ms-lg-0 gap-4">
-        <ul class="navbar-nav ms-lg-3 mb-5 mb-lg-0 ">
+      <div class="d-lg-flex  ms-lg-auto gap-4">
+        <ul class="navbar-nav ms-lg-3 mt-4 mb-5 mb-lg-0 ">
         <li class="nav-item">
           <a class="nav-link text-white">Sign in</a>
         </li>
         </ul>
-        <button class="btn px-4 text-white" type="submit">Sign up</button>
+        <button class="btn px-lg-4 text-white" type="submit">Sign up</button>
       </div>
     </div>
   </div>
